@@ -23,29 +23,50 @@
                                         <rect key="frame" x="15" y="16" width="240" height="128"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Olj-NY-fdc">
-                                                <rect key="frame" x="82" y="19" width="131" height="30"/>
+                                                <rect key="frame" x="82" y="13" width="131" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgH-30-EpB">
-                                                <rect key="frame" x="18" y="23" width="56" height="21"/>
+                                                <rect key="frame" x="5" y="17" width="56" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4f4-8J-5j4">
-                                                <rect key="frame" x="82" y="57" width="131" height="30"/>
+                                                <rect key="frame" x="82" y="52" width="131" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhx-wS-Sn5">
-                                                <rect key="frame" x="18" y="60" width="56" height="21"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XHB-Ef-xdr">
+                                                <rect key="frame" x="82" y="90" width="131" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birthday:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhx-wS-Sn5">
+                                                <rect key="frame" x="5" y="56" width="69" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spouse:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tva-6P-vMy">
+                                                <rect key="frame" x="11" y="94" width="63" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.71202933839716542" green="1" blue="0.54976190001624348" alpha="1" colorSpace="calibratedRGB"/>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="22" y="16" width="240" height="128"/>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Svx-Nn-RZ6">
+                                        <rect key="frame" x="15" y="304" width="240" height="128"/>
+                                        <color key="backgroundColor" red="0.71202933840000004" green="1" blue="0.54976190000000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="22" y="159" width="240" height="128"/>
+                                        </variation>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-y6-VKy">
                                         <rect key="frame" x="15" y="160" width="240" height="128"/>
@@ -57,23 +78,43 @@
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" red="0.71202933840000004" green="1" blue="0.54976190000000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Svx-Nn-RZ6">
-                                        <rect key="frame" x="15" y="304" width="240" height="128"/>
-                                        <color key="backgroundColor" red="0.71202933840000004" green="1" blue="0.54976190000000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="278" y="16" width="240" height="128"/>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.43217699008449095" green="0.79243810103107326" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="moR-GA-qgW" firstAttribute="leading" secondItem="C8J-mg-rfs" secondAttribute="leading" constant="16" id="2Z4-uI-ugP"/>
+                                    <constraint firstItem="Svx-Nn-RZ6" firstAttribute="width" secondItem="moR-GA-qgW" secondAttribute="width" id="2h4-3Z-W8V"/>
+                                    <constraint firstItem="moR-GA-qgW" firstAttribute="leading" secondItem="Svx-Nn-RZ6" secondAttribute="leading" id="3hj-tH-XXr"/>
                                     <constraint firstItem="w7p-y6-VKy" firstAttribute="leading" secondItem="C8J-mg-rfs" secondAttribute="leading" constant="15" id="4c4-jS-1Id"/>
                                     <constraint firstItem="moR-GA-qgW" firstAttribute="top" secondItem="C8J-mg-rfs" secondAttribute="top" constant="16" id="5Wk-2c-c2L"/>
                                     <constraint firstItem="Svx-Nn-RZ6" firstAttribute="top" secondItem="w7p-y6-VKy" secondAttribute="bottom" constant="16" id="QR4-7D-h08"/>
+                                    <constraint firstItem="moR-GA-qgW" firstAttribute="trailing" secondItem="Svx-Nn-RZ6" secondAttribute="trailing" id="bgP-CA-jbB"/>
                                     <constraint firstItem="w7p-y6-VKy" firstAttribute="top" secondItem="moR-GA-qgW" secondAttribute="bottom" constant="16" id="gun-hc-6e9"/>
                                     <constraint firstItem="Svx-Nn-RZ6" firstAttribute="top" secondItem="w7p-y6-VKy" secondAttribute="bottom" constant="16" id="iJe-M0-qwa"/>
                                     <constraint firstItem="w7p-y6-VKy" firstAttribute="top" secondItem="moR-GA-qgW" secondAttribute="bottom" constant="16" id="mbH-lU-USY"/>
+                                    <constraint firstItem="w7p-y6-VKy" firstAttribute="width" secondItem="moR-GA-qgW" secondAttribute="width" id="suW-jS-JYP"/>
                                     <constraint firstItem="Svx-Nn-RZ6" firstAttribute="leading" secondItem="C8J-mg-rfs" secondAttribute="leading" constant="15" id="tWV-fx-Y8X"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3hj-tH-XXr"/>
+                                        <exclude reference="bgP-CA-jbB"/>
+                                        <exclude reference="2h4-3Z-W8V"/>
+                                        <exclude reference="suW-jS-JYP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="812" height="600"/>
+                                    <mask key="constraints">
+                                        <include reference="3hj-tH-XXr"/>
+                                        <include reference="bgP-CA-jbB"/>
+                                        <include reference="2h4-3Z-W8V"/>
+                                        <include reference="suW-jS-JYP"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -81,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="211" y="457"/>
+            <point key="canvasLocation" x="210.75" y="456"/>
         </scene>
     </scenes>
 </document>
