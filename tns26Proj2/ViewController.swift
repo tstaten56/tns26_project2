@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var SpouseLabel: UILabel!
     @IBOutlet weak var RolesLabel: UILabel!
     @IBOutlet weak var AwardsLabel: UILabel!
+    @IBOutlet weak var Image: UIImageView!
     
     
     
@@ -39,6 +40,11 @@ class ViewController: UIViewController {
         
         // dump the dictionary
         print(data)
+        
+        //load image
+        /*let imageName = "DavidTennant.jpg"
+        let actualImage = UIImage(named: imageName)
+        Image.image = actualImage*/
         
         // string from the dictionary
         BdayLabel.text = data?["Birthday"]

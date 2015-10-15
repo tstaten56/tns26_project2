@@ -13,6 +13,8 @@
 		45012C6B1BCD63CC0008DB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45012C6A1BCD63CC0008DB1C /* Assets.xcassets */; };
 		45012C6E1BCD63CC0008DB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45012C6C1BCD63CC0008DB1C /* LaunchScreen.storyboard */; };
 		45012C781BCD74730008DB1C /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45012C771BCD74730008DB1C /* data.plist */; settings = {ASSET_TAGS = (); }; };
+		455CB1001BD012B100B3D2A5 /* DavidTennant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 455CB0FF1BD012B100B3D2A5 /* DavidTennant.jpg */; settings = {ASSET_TAGS = (); }; };
+		455CB1021BD015AA00B3D2A5 /* movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 455CB1011BD015AA00B3D2A5 /* movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		45012C6D1BCD63CC0008DB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45012C6F1BCD63CC0008DB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45012C771BCD74730008DB1C /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		455CB0FF1BD012B100B3D2A5 /* DavidTennant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DavidTennant.jpg; sourceTree = SOURCE_ROOT; };
+		455CB1011BD015AA00B3D2A5 /* movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		45012C621BCD63CC0008DB1C /* tns26Proj2 */ = {
 			isa = PBXGroup;
 			children = (
+				455CB1011BD015AA00B3D2A5 /* movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg */,
+				455CB0FF1BD012B100B3D2A5 /* DavidTennant.jpg */,
 				45012C631BCD63CC0008DB1C /* AppDelegate.swift */,
 				45012C651BCD63CC0008DB1C /* ViewController.swift */,
 				45012C671BCD63CC0008DB1C /* Main.storyboard */,
@@ -128,6 +134,8 @@
 				45012C6B1BCD63CC0008DB1C /* Assets.xcassets in Resources */,
 				45012C781BCD74730008DB1C /* data.plist in Resources */,
 				45012C691BCD63CC0008DB1C /* Main.storyboard in Resources */,
+				455CB1001BD012B100B3D2A5 /* DavidTennant.jpg in Resources */,
+				455CB1021BD015AA00B3D2A5 /* movies-harry-potter-and-the-goblet-of-fire-david-tennant.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				45012C741BCD63CC0008DB1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
