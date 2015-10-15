@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var SpouseLabel: UILabel!
     @IBOutlet weak var RolesLabel: UILabel!
     @IBOutlet weak var AwardsLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -43,6 +46,15 @@ class ViewController: UIViewController {
         SpouseLabel.text = data?["Spouse"]
         RolesLabel.text = data?["PopularRoles"]
         AwardsLabel.text = data?["Awards"]
+        
+        BdayLabel.preferredMaxLayoutWidth = BdayLabel.frame.width
+        NameLabel.preferredMaxLayoutWidth = NameLabel.frame.width
+        RolesLabel.preferredMaxLayoutWidth = RolesLabel.frame.width
+        RolesLabel.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        RolesLabel.numberOfLines = 0
+        
+        AwardsLabel.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        AwardsLabel.numberOfLines = 5
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,7 +65,13 @@ class ViewController: UIViewController {
     func loadData() {
         
     }
-
-
 }
+
+extension UILabel {
+    func setSizeFont (sizeFont : Double) {
+        //self.font = UIFont(name: self.font.fontName, size: sizeFont)!
+        self.sizeToFit()
+    }
+}
+
 
